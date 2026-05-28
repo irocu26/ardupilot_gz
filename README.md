@@ -37,12 +37,12 @@ colcon build --packages-select ardupilot_gz_application ardupilot_gz_bringup ard
 
 ### 1. ardupilot_gz_bringup
 
-Added iris_mars_launch.py
+Added iris_runway_mapping_launch.py
 
 
 ### 2. ardupilot_gz_gazebo
 
-Added mars world for launch file to work
+Added runway mapping world for launch file to work
 
 
 ---

@@ -30,6 +30,11 @@ colcon build --packages-select ardupilot_gz_application ardupilot_gz_bringup ard
 
 ---
 
+```bash
+
+source ~/ardu_ws/install/setup.bash
+ros2 launch ardupilot_gz_bringup iris_runway_mapping.launch.py
+```
 
 # Changelog
 

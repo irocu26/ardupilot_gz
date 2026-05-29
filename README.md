@@ -35,15 +35,13 @@ colcon build --packages-select ardupilot_gz_application ardupilot_gz_bringup ard
 
 ## Current Version Updates
 
-### 1. ardupilot_gz_bringup
+### Added GZ_ROS bridge to support rgbd camera image, depth_image , points 
 
-Added iris_runway_mapping_launch.py
+#### You can subscribe to following topics
 
-
-### 2. ardupilot_gz_gazebo
-
-Added runway mapping world for launch file to work
-
+1. `Raw RGBD Image: "/rgbd_camera/image" ` 
+2. `Depth RGBD Image: "/rgbd_camera/depth_image" ` 
+3. `Point CLoud of RGBD Image : "rgbd_camera/points" `
 
 ---
 

@@ -2,7 +2,7 @@
 
 ## If you have already removed it , and want to pull changes 
 ```bash
-cd ~/ardu_ws/src
+cd ~/ardu_ws/src/ardupilot_gz
 git pull origin main
 ```
 

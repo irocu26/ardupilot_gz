@@ -1,6 +1,12 @@
 # Usage Guide
 
-## Remove Existing Repository
+## If you have already removed it , and want to pull changes 
+```bash
+cd ~/ardu_ws/src/ardupilot_gz
+git pull origin main
+```
+
+## Remove Existing Original Ardupilot Repository
 
 ```bash
 rm -rf ~/ardu_ws/src/ardupilot_gz/

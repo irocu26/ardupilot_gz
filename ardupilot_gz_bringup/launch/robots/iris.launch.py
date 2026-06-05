@@ -169,6 +169,13 @@ def generate_launch_arguments() -> List[DeclareLaunchArgument]:
                     "default_params",
                     "dds_udp.parm",
                 )
+                + ","
+                + os.path.join(
+                    pkg_ardupilot_sitl,
+                    "config",
+                    "default_params",
+                    "dds_use_ns.parm",
+                )
             ),
             description="Set path to default params for the iris with DDS.",
         ),

@@ -131,6 +131,7 @@ def launch_state_pub_with_bridge(
         parameters=[
             {"robot_description": robot_desc},
             {"frame_prefix": ""},
+            {"use_sim_time": True}
         ],
         remappings=[
             ("/tf", "tf"),

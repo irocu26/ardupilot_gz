@@ -73,7 +73,7 @@
     </include>
 
     <include>
-      <uri>model://arucotag</uri>
+      <uri>model://aprilgrid</uri>
       <pose degrees="true">0 0 0.8 0 0 0</pose>
     </include>
     

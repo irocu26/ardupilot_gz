@@ -50,9 +50,6 @@ ros2 launch ardupilot_gz_bringup iris_runway_mapping.launch.py
 
 #### You can subscribe to following topics
 
-1. `Raw RGBD Image: "/rgbd_camera/image" ` 
-2. `Depth RGBD Image: "/rgbd_camera/depth_image" ` 
-3. `Point CLoud of RGBD Image : "rgbd_camera/points" `
-
+1. `Stereo Image: "/camera_left/image" , "/camera_right/image" ` 
 ---
 
